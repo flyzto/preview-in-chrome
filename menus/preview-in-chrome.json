@@ -1,0 +1,22 @@
+{
+    "context-menu": {
+        ".tree-view .file": [{
+            "label": "Preview in Chrome",
+            "command": "preview-in-chrome:preview",
+            "id": "preview-in-chrome-context-menu"
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Preview In Chrome",
+            "submenu": [{
+                "label": "Preview",
+                "command": "preview-in-chrome:preview"
+            }, {
+                "label": "Refresh",
+                "command": "preview-in-chrome:refresh"
+            }]
+        }]
+    }]
+}

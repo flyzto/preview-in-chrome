@@ -1,0 +1,15 @@
+{
+  "name": "preview-in-chrome",
+  "main": "./lib/preview-in-chrome",
+  "version": "0.0.1",
+  "description": "Preview HTML file in Google Chrome",
+  "keywords": [
+  ],
+  "repository": "https://github.com/flyzto/preview-in-chrome",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "atom-text-editor[data-grammar~='html']": {
+        "ctrl-alt-cmd-p": "preview-in-chrome:preview"
+    }
+}
