@@ -1,13 +1,19 @@
 {
-  "name": "preview-in-chrome",
-  "main": "./lib/preview-in-chrome",
-  "version": "0.1.2",
-  "description": "Preview HTML file in Google Chrome",
-  "keywords": [],
-  "repository": "https://github.com/flyzto/preview-in-chrome",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {}
+    "name": "preview-in-chrome",
+    "main": "./lib/preview-in-chrome",
+    "version": "0.1.2",
+    "description": "Preview HTML file in Google Chrome",
+    "keywords": ["preview", "chrome", "html"],
+    "activationCommands": {
+        "atom-workspace": [
+            "preview-in-chrome:preview",
+            "preview-in-chrome:refresh"
+        ]
+    },
+    "repository": "https://github.com/flyzto/preview-in-chrome",
+    "license": "MIT",
+    "engines": {
+        "atom": "*"
+    },
+    "dependencies": {}
 }
